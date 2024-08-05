@@ -1,0 +1,133 @@
+.cart-item-details{
+    font-size: 12px;
+    color: #9F9F9F;
+}
+
+.cart-item-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .quantity-and-subtotal {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .quantity-input {
+    width: 50px;
+    margin-left: 10px;
+  }
+  
+  .subtotal {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+ 
+  
+  .subtotal{
+    margin-right: 30%;
+    font-size: 
+    16px;
+  }
+
+  .quantity-input{
+    margin-left: 5%;
+  }
+
+  .principal{
+    background-color: #F9F1E7;
+    Width:100%;
+    Height:
+    55px;
+  }
+  
+  .quantity-input{
+    width: 106px;
+    height: 47px;
+    border-radius: 10px;
+  }
+
+
+  .cart-page {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .principal {
+    background-color: #F9F1E7;
+    width: 100%;
+    height: 55px;
+  }
+  
+  .left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 10px;margin-left: 20%;
+    background-color: #F9F1E7;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    align-items: center;
+    Width:393px;
+    Height:390px;
+    margin-bottom: 10%;
+  }
+  
+  .cart-item-details {
+    font-size: 12px;
+    color: #9F9F9F;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .quantity-and-subtotal {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .quantity-input {
+    width: 50px;
+    margin-left: 10px;
+  }
+  
+  .subtotal {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .subtotal {
+    margin-right: 30%;
+    font-size: 16px;
+  }
+  
+  .quantity-input {
+    margin-left: 5%;
+  }
+  
+  .cart-item-image {
+    max-width: 100px; 
+  }
+  
+  .remove-item-button {
+    margin-left: auto; 
+    background-color: transparent;
+  }
+  
+  .checkout {
+    margin-top: 20px;
+  }
+  
+  .retangulo{
+    width: 100%;
+  }

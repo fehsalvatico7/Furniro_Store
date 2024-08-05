@@ -1,0 +1,46 @@
+.left{
+    Width:
+303px;
+Height:
+430px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left, .right {
+    flex: 1; 
+  }
+  
+  .left {
+    margin-right: 20px; 
+    font-family: Poppins, sans-serif;
+    margin-left: 10%;
+  }
+  
+  .right {
+    margin-left: 20px; 
+  }
+  
+  .input-colum{
+    width: 526px;
+    height: 75px;
+  }
+
+.submit{
+  color: white;
+  background-color: 
+  #B88E2F;
+  width: 237px;
+  height: 55px;
+}
+
+.top{
+  max-width: 100%;
+}
+
+.rodape{
+  max-width: 100%;
+}

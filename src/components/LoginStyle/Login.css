@@ -1,0 +1,49 @@
+.principal1{
+    background-color: rgb(226, 254, 245);
+    width: 100%;
+    height: 1000px;
+    margin-top: -25px;
+}
+
+input{
+    margin-top: 2%;
+    margin-left: 22%;
+    background-color:rgb(198, 238, 239) ;
+}
+.email{
+    width: 220px;
+    height: 25px;
+    border-radius: 20px;
+    margin-left: 30%;
+}
+
+.password{
+    width: 130px;
+    height: 20px;
+    border-radius: 20px;
+    margin-left: 30%;
+}
+
+.loginBtn{
+    margin-left: 33%;
+    margin-top: 1%;
+    background-color: rgb(144, 226, 164);
+    border-radius: 20px;
+}
+
+.furn{
+    margin-left: 30%;
+    color: brown;
+    font-size: 45px;
+}
+
+.reg{
+    margin-left: 29%;
+    margin-top: 5%;
+}
+
+.moveis{
+    width: 300px;
+    height: 280px;
+    margin-left: 28%;
+}

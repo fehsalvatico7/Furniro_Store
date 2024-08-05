@@ -1,0 +1,105 @@
+.footer-container {
+  width: 100%; 
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row; 
+  gap: 10px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  border-top: #9F9F9F;
+}
+
+.subcontainer {
+  font-family: Poppins, sans-serif;
+  margin-right: 0;
+  width: 100%;
+}
+
+.subcontainer h2 {
+  font-family: Poppins, sans-serif;
+  margin-left: 0;
+}
+
+.box {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+}
+
+.btnFooter,
+.btnPayment,
+.btnReturns,
+.btnPolicies {
+  background-color: #ffff;
+  border: none;
+  cursor: pointer;
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+}
+
+.textGray {
+  color: #9F9F9F;
+  margin-left: -15px;
+}
+
+.subscribe-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.email-input {
+  border: none;
+  border-bottom: 2px solid black; 
+  background-color: transparent;
+  padding: 8px;
+  margin-right: 0;
+  width: 100%;
+  max-width: 300px;
+}
+
+.email-input:focus {
+  border-bottom-color: black; 
+}
+
+.subscribe-button {
+  border: none;
+  border-bottom: 2px solid black; 
+  background-color: transparent;
+  padding: 8px 16px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 90px;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .subcontainer {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .subcontainer h2 {
+    margin-left: 0;
+  }
+
+  .btnFooter,
+  .btnPayment,
+  .btnReturns,
+  .btnPolicies {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .email-input {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+

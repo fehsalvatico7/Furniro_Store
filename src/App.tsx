@@ -1,25 +1,41 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './components/Home/Home';
+import Shop from './components/Shop/Shop';
+import ProductDetails from './components/ProductDetails/ProductDetails';
+import Cart from './components/Cart/Cart';
+import Login from './components/Login/Login';
+import Register from './components/Login/Register';
+import { AuthProvider } from './components/Login/authContext';
+import PrivateRoute from './components/Login/PrivateRoute';
+import PageCart from './components/PageCart/PageCart';
+import Checkout from './components/Checkout/Checkout';
+import Contact from './components/Contact/Contact';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AuthProvider>
+      <Router>
+        <Routes>
+          {/* Rotas públicas */}
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/shop" element={<Shop />} />
+          <Route path="/product/:id" element={<ProductDetails />} />
+          <Route path="/contact" element={<Contact />} />
+          
+          {/* Rotas protegidas */}
+          <Route element={<PrivateRoute />}>
+            <Route path="/cart" element={<Cart />} />
+            <Route path="/pagecart" element={<PageCart />} />
+            <Route path="/checkout" element={<Checkout />} />
+            <Route path="/check" element={<Checkout />} />
+          </Route>
+        </Routes>
+      </Router>
+    </AuthProvider>
   );
 }
 

@@ -1,0 +1,212 @@
+.product-details-container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    width: 100%; 
+  }
+  
+  .princ {
+    display: flex;
+    flex-direction: row;
+    gap: 20px; 
+    width: 100%; 
+   
+  }
+  
+  .product-image img {
+    Width: 681px;
+    Height:541px; 
+    margin-right:60px;
+    background-color: 
+    #F9F1E7;
+     margin-left: -40px;
+  }
+  
+  .product-info {
+    max-width: 500px; 
+    align-items: center;
+    margin-top: 70px;
+    margin-right: 50px;
+  }
+  
+  .textCinza{
+    color: #9F9F9F;
+    font-family: Poppins,sans-serif;
+  }
+
+  .star-rating {
+    display: flex;
+    align-items: center;
+  }
+  
+  .star-icon {
+    color: gold;
+    margin-right: 2px;
+  }
+  
+  .rating-container {
+    margin: 10px 0;
+  }
+  
+  .btns button{
+    background-color: #F9F1E7;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+  }
+
+  .btns button:hover{
+    background-color: 
+    #B88E2F;
+  }
+  .roxo{
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    margin-right: 5px;
+    background-color: #816DFA;
+  }
+
+  .preto{
+    background-color: #000000;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    margin-right: 5px;
+  }
+
+  .amarelo{
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    margin-right: 5px;
+    background-color: 
+    #B88E2F;
+  }
+
+  .product-details-container {
+    display: flex;
+  }
+  
+  .product-image {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .product-gallery {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .gallery-thumbnails {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .gallery-thumbnails img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border 0.3s;
+  }
+  
+  .gallery-thumbnails img:hover {
+    border: 2px solid #000;
+  }
+  
+  .desc{
+    margin-left: 45%;
+  }
+
+  .image-gallery {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .image-gallery img {
+    width: 100%; 
+    height: auto;
+    max-width: 50%; 
+  }
+  
+  .relat{
+    margin-left: 45%;
+  }
+
+  .product-grid{
+    flex-direction: row;
+    margin-left: 15%;
+  }
+
+  .show{
+    width: 245px;
+    height:48px;
+    color: #B88E2F;
+    background-color: white;
+    border: 1px #B88E2F solid;
+    margin-left: 45%;
+  }
+
+  .add-to-cart-button {
+    background-color: white;
+    color: #B88E2F;
+    border-color: black;
+    padding: 10px 20px;
+    border-radius: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    opacity: 0;
+    visibility: hidden;
+    width: 202px;
+    height: 48px;
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: #3A3A3A;
+  }
+
+  .descrip{
+    margin-left: 20px;
+  }
+
+  .image-gallery{
+    margin-left: 20px;
+  }
+
+  .input1{
+    width: 123px;
+    height: 64px;
+    border: 1px #9F9F9F solid;
+    border-radius: 10px;
+    margin-right: 5px;
+  }
+
+  .addBtn{
+    width: 119px;
+    height: 64px;
+    border-radius: 10px;
+    background-color: white;
+  }
+  .descrip{
+    font-family: Poppins, sans-serif;
+  }
